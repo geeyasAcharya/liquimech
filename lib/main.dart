@@ -59,5 +59,5 @@ Future<http.Response?> getToken() async {
       }
     },
   );
-  print('token printed');
+  print('got the token');
 }
