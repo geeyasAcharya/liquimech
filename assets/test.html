@@ -1,0 +1,24 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Test</title>
+    <script type="text/javascript"> //javascript codes goes here
+        function add(num1, num2) {
+            var result = num1 + num2;
+            document.getElementById('message').innerHTML = "Hello World!!";
+            document.getElementById('result').innerHTML = num1 + " + " + num2 + " = " + result;
+        }
+    </script>
+</head>
+
+<body onload="add(100,200)">
+    <h1>
+        <p id="message"></p>
+    </h1>
+    <h2>
+        <p id="result"></p>
+    </h2>
+</body>
+
+</html>
